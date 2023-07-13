@@ -3,7 +3,7 @@
   "displayName": "SQL Template Literal Syntax Highlighting",
   "description": "Syntax highlighting for SQL template literals.",
   "icon": "img/icon.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "yo1dog",
   "repository": {
     "type": "git",
