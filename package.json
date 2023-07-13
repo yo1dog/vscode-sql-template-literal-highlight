@@ -1,0 +1,46 @@
+{
+  "name": "vscode-sql-template-literal-highlight",
+  "displayName": "SQL Template Literal Syntax Highlighting",
+  "description": "Syntax highlighting for SQL template literals.",
+  "icon": "img/icon.png",
+  "version": "1.0.0",
+  "publisher": "yo1dog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yo1dog/vscode-sql-template-literal-highlight.git"
+  },
+  "author": "Mike \"yo1dog\" Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yo1dog/vscode-sql-template-literal-highlight/issues"
+  },
+  "homepage": "https://github.com/yo1dog/vscode-sql-template-literal-highlight#readme",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
+        ],
+        "scopeName": "inline.lit-sql",
+        "path": "./lit-sql.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.sql": "sql"
+        }
+      }
+    ]
+  }
+}
